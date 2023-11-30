@@ -19,7 +19,7 @@ const StepBar = ({ steps }: StepBarProps) => {
         <Stack className={styles.stepItem} key={idx} direction="row" alignItems="center" spacing={1}>
           {step.status === 'done' && (
             <Box className={`${styles.stepBadgeDone} ${styles.badge}`}>
-              <IconCheckmark height={16} width={16} />
+              <IconCheckmark width={16} />
             </Box>
           )}
           {step.status === 'current' && (
