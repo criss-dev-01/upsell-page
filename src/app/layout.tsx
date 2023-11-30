@@ -11,6 +11,7 @@ import styles from './layout.module.css'
 // components
 import NavbarInformation from '@/components/navbar/information/NavbarInformation'
 import NavbarNavigation from '@/components/navbar/navegation/NavbarNavigation'
+import FooterApp from '@/components/footer/FooterApp'
 
 export const metadata: Metadata = {
   title: 'Challenge Upsell Page',
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <NavbarInformation />
         <NavbarNavigation />
         <Box className={styles.layoutApp}>{children}</Box>
+        <FooterApp />
       </body>
     </html>
   )
