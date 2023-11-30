@@ -16,7 +16,7 @@
 }
 
 .stepBadgeCurrent{
-  background-color: var(--blue-badge);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -30,8 +30,8 @@
 }
 
 .stepBadgeNext{
-  color: var(--blue-badge);
-  border: 1px solid var(--blue-badge);
+  color: var(--blue);
+  border: 1px solid var(--blue);
   background-color: var(--white);
 }
 

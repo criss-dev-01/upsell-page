@@ -1,0 +1,4 @@
+.cardApp{
+  background-color: var(--gray-light);
+  border-radius: var(--border-card);
+}

@@ -1,0 +1,22 @@
+.cardProduct{
+  padding: 40px;
+  flex-direction: row;
+}
+.content{
+  width: 49%;
+}
+
+.productImage{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.infoContent{
+  align-items: flex-start;
+  gap: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}

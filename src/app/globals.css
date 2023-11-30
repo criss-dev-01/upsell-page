@@ -2,10 +2,20 @@
   /* Colors */
   --white: #ffffff ;
   --black: #000000;
-  --gray: #4D5254;
-  --dark-blue: #252F3D;
+
+  --gray: hsl(197, 4%, 32%);
+  --gray-dark: #333;
+  --gray-light: #FAFAFA;
+
+  --blue: #2C7EF8;
+  --blue-dark: #252F3D;
+
   --green-badge: #85BF55;
-  --blue-badge: #2C7EF8;
+  --green-dark: #5BB59A;
+
+  /* border */
+  --border-card: 10px;
+
   /* padding */
   --padding-x-lg: 127px;
   --padding-x-md: 60px;
@@ -18,4 +28,5 @@ html, body{
   min-height: 100vh;
   width: 100vw;
   background-color: var(--white);
+  overflow-x: hidden;
 }

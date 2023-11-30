@@ -5,6 +5,8 @@ import IconCheckmarkStarburst from './CheckmarkStarburst'
 import IconAngleLeft from './AngleLeft'
 import IconAngleRight from './AngleRight'
 import IconCheckmark from './Checkmark'
+import IconStar from './Star'
+import IconCheckmarkStarburstFill from './CheckmarkStarburstFill'
 
 export {
   IconTruck,
@@ -13,5 +15,7 @@ export {
   IconCheckmarkStarburst,
   IconAngleLeft,
   IconAngleRight,
-  IconCheckmark
+  IconCheckmark,
+  IconStar,
+  IconCheckmarkStarburstFill
 }

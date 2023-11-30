@@ -1,0 +1,12 @@
+
+.listCheck{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+@media only screen and (max-width: 768px) {
+
+}

@@ -1,5 +1,10 @@
-import { Typography } from '@mui/material'
+// mui
+import { Typography, Stack } from '@mui/material'
+
+// components
 import StepBar, { Step } from '@/components/step/StepBar'
+import ProductDetail from '@/components/product/detail/ProductDetail'
+
 // styles
 import styles from './HomeView.module.css'
 
@@ -19,7 +24,10 @@ const HomeView = () => {
       <Typography className={styles.paragraph} variant="body2" textAlign="center">
         Lorem ipsum dolor sit amet, consectetur adipiscing
       </Typography>
-      <StepBar steps={STEPS_PAGE} />
+      <Stack marginBottom={4}>
+        <StepBar steps={STEPS_PAGE} />
+      </Stack>
+      <ProductDetail />
     </main>
   )
 }
