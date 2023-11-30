@@ -13,12 +13,12 @@ const ProductDetailInformationShipping = () => {
         <Stack>
           <Typography variant="caption">Free shipping</Typography>
         </Stack>
-        <Divider orientation="vertical" variant="middle" flexItem color="#CFCFCF" />
+        <Divider className={styles.divider} orientation="vertical" variant="middle" flexItem color="#CFCFCF" />
         <Stack direction="row" alignItems="center" gap={1}>
           <IconLock color="#CFCFCF" />
           <Typography variant="caption">Secure 256-bit SSL encryption.</Typography>
         </Stack>
-        <Divider orientation="vertical" variant="middle" flexItem color="#CFCFCF" />
+        <Divider className={styles.divider} orientation="vertical" variant="middle" flexItem color="#CFCFCF" />
         <Stack direction="row">
           <Image src="/cards/visa.png" alt="visa-icon" width={24} height={14} />
           <Image src="/cards/shopPay.png" alt="shop-pay-icon" width={24} height={14} />

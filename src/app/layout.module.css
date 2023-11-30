@@ -6,3 +6,9 @@
     padding: 10px var(--padding-x-sx);
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .layoutApp {
+    padding: 10px var(--padding-x-sx);
+  }
+}

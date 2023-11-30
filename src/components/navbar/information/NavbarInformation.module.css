@@ -16,6 +16,12 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .infoBar {
+    padding: 20px var(--padding-x-sx);
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .infoBar {
