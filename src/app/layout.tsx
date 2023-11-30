@@ -1,8 +1,12 @@
 import { ReactNode } from 'react'
+import { Box } from '@mui/material'
 import type { Metadata } from 'next'
 import { Manrope } from 'next/font/google'
-import './globals.css'
+
 const manrope = Manrope({ subsets: ['latin'] })
+
+import './globals.css'
+import styles from './layout.module.css'
 
 // components
 import NavbarInformation from '@/components/navbar/information/NavbarInformation'
@@ -19,7 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={manrope.className}>
         <NavbarInformation />
         <NavbarNavigation />
-        {children}
+        <Box className={styles.layoutApp}>{children}</Box>
       </body>
     </html>
   )

@@ -1,0 +1,8 @@
+.layoutApp{
+  padding: 10px var(--padding-x-lg);
+}
+@media only screen and (max-width: 768px) {
+  .layoutApp {
+    padding: 10px var(--padding-x-sx);
+  }
+}

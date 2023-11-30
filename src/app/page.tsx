@@ -1,3 +1,4 @@
+import HomeView from '@/views/HomeView'
 export default function Home() {
-  return <main>body</main>
+  return <HomeView />
 }

@@ -1,6 +1,8 @@
 :root {
   /* Colors */
   --white: #ffffff ;
+  --black: #000000;
+  --gray: #4D5254;
   --dark-blue: #252F3D;
 
   /* padding */
