@@ -5,7 +5,7 @@
   font-weight: 400;
   line-height: 100%;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .paragraph{
@@ -15,6 +15,7 @@
   font-weight: 400;
   line-height: 100%;
   text-transform: capitalize;
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 768px) {

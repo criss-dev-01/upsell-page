@@ -1,0 +1,72 @@
+.stepItem{
+  flex-direction: row;
+}
+
+.badge{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.stepBadgeDone{
+  background-color: var(--green-badge);
+}
+
+.stepBadgeCurrent{
+  background-color: var(--blue-badge);
+  color: var(--white);
+}
+
+.stepBadgeCurrent span,
+.stepBadgeNext span
+{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.stepBadgeNext{
+  color: var(--blue-badge);
+  border: 1px solid var(--blue-badge);
+  background-color: var(--white);
+}
+
+.stepLabel{
+  color: var(--black);
+  font-size: 15px;
+  font-style: normal;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 870px) {
+  .stepItem{
+    flex-direction: column;
+  }
+
+ .badge{
+  width: 30px;
+  height: 30px;
+ }
+
+ .badge img{
+  width: 10px;
+  height: 10px;
+ }
+
+  .stepLabel{
+    font-size: 12px;
+    text-align: center;
+    margin-top: .8rem !important;
+  }
+
+  .stepBadgeCurrent span,
+  .stepBadgeNext span
+  {
+    font-size: 15px;
+  }
+}
