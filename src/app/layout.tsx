@@ -6,6 +6,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 // components
 import NavbarInformation from '@/components/navbar/information/NavbarInformation'
+import NavbarNavigation from '@/components/navbar/navegation/NavbarNavigation'
 
 export const metadata: Metadata = {
   title: 'Challenge Upsell Page',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className={manrope.className}>
         <NavbarInformation />
+        <NavbarNavigation />
         {children}
       </body>
     </html>

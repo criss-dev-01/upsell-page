@@ -1,0 +1,21 @@
+.navigationBar{
+  border: none;
+}
+.content{
+  padding: 20px var(--padding-x-lg);
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 10px var(--padding-x-sx);
+  }
+  .mainLogo{
+    width: 106px;
+    height: 20px;
+  }
+  .secondaryLogo{
+    width: 44px;
+    height: 16px;
+  }
+}
