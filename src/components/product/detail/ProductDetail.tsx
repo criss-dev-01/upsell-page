@@ -8,6 +8,7 @@ import ProductDetailComment from './ProductDetailComment'
 import ProductDetailInformationTitle from './information/ProductDetailInformationTitle'
 import ProductDetailInformationCurrent from './information/ProductDetailInformationCurrent'
 import ProductDetailInformationList from './information/ProductDetailInformationList'
+import ProductDetailInformationDiscount from './information/ProductDetailInformationDiscount'
 
 // styles
 import styles from './ProductDetail.module.css'
@@ -31,6 +32,7 @@ const ProductDetail = () => {
             <ProductDetailInformationTitle />
             <ProductDetailInformationCurrent />
             <ProductDetailInformationList />
+            <ProductDetailInformationDiscount />
           </Stack>
         </Stack>
       </Stack>
