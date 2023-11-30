@@ -10,6 +10,7 @@ import ProductDetailInformationCurrent from './information/ProductDetailInformat
 import ProductDetailInformationList from './information/ProductDetailInformationList'
 import ProductDetailInformationDiscount from './information/ProductDetailInformationDiscount'
 import ProductDetailInformationShipping from './information/ProductDetailInformationShipping'
+import ProductDetailInformationGuarantee from './information/ProductDetailInformationGuarantee'
 
 import { IconArrowRight } from '@/components/icons'
 
@@ -43,6 +44,7 @@ const ProductDetail = () => {
             <Button color="error" size="large" fullWidth className={styles.btnNoThanks}>
               No thanks, I don’t want this.
             </Button>
+            <ProductDetailInformationGuarantee />
           </Stack>
         </Stack>
       </Stack>
