@@ -3,9 +3,10 @@
   --white: #ffffff ;
   --black: #000000;
 
-  --gray: hsl(197, 4%, 32%);
-  --gray-dark: #333;
-  --gray-light: #FAFAFA;
+  --grey: hsl(197, 4%, 32%);
+  --grey-dark: #333;
+  --grey-light: #FAFAFA;
+  --grey-text: #4D5254;
 
   --blue: #2C7EF8;
   --blue-dark: #252F3D;

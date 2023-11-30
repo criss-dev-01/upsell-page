@@ -9,6 +9,7 @@ import ProductDetailInformationTitle from './information/ProductDetailInformatio
 import ProductDetailInformationCurrent from './information/ProductDetailInformationCurrent'
 import ProductDetailInformationList from './information/ProductDetailInformationList'
 import ProductDetailInformationDiscount from './information/ProductDetailInformationDiscount'
+import ProductDetailInformationShipping from './information/ProductDetailInformationShipping'
 
 import { IconArrowRight } from '@/components/icons'
 
@@ -38,6 +39,7 @@ const ProductDetail = () => {
             <Button endIcon={<IconArrowRight />} size="large" fullWidth className={styles.btnDiscount}>
               Yes - Claim my discount
             </Button>
+            <ProductDetailInformationShipping />
           </Stack>
         </Stack>
       </Stack>
