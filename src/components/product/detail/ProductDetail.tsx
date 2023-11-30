@@ -40,6 +40,9 @@ const ProductDetail = () => {
               Yes - Claim my discount
             </Button>
             <ProductDetailInformationShipping />
+            <Button color="error" size="large" fullWidth className={styles.btnNoThanks}>
+              No thanks, I don’t want this.
+            </Button>
           </Stack>
         </Stack>
       </Stack>

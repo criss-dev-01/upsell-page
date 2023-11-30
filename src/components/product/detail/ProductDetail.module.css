@@ -28,6 +28,15 @@
   background-color: var(--green-badge);
 }
 
+.btnNoThanks{
+  color: var(--red);
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.btnNoThanks:hover{
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 768px) {
 
