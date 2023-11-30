@@ -4,13 +4,13 @@ import { Stack, Button } from '@mui/material'
 
 // components
 import CardApp from '@/components/card/CardApp'
-import ProductDetailComment from './ProductDetailComment'
-import ProductDetailInformationTitle from './information/ProductDetailInformationTitle'
-import ProductDetailInformationCurrent from './information/ProductDetailInformationCurrent'
-import ProductDetailInformationList from './information/ProductDetailInformationList'
-import ProductDetailInformationDiscount from './information/ProductDetailInformationDiscount'
-import ProductDetailInformationShipping from './information/ProductDetailInformationShipping'
-import ProductDetailInformationGuarantee from './information/ProductDetailInformationGuarantee'
+import ProductDetailComment from './comment/ProductDetailComment'
+import ProductDetailInformationTitle from './information/title/ProductDetailInformationTitle'
+import ProductDetailInformationCurrent from './information/current/ProductDetailInformationCurrent'
+import ProductDetailInformationList from './information/list/ProductDetailInformationList'
+import ProductDetailInformationDiscount from './information/discount/ProductDetailInformationDiscount'
+import ProductDetailInformationShipping from './information/shipping/ProductDetailInformationShipping'
+import ProductDetailInformationGuarantee from './information/guarantee/ProductDetailInformationGuarantee'
 
 import { IconArrowRight } from '@/components/icons'
 
