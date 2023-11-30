@@ -1,6 +1,6 @@
 import Image from 'next/image'
 // MUI
-import { Stack } from '@mui/material'
+import { Stack, Button } from '@mui/material'
 
 // components
 import CardApp from '@/components/card/CardApp'
@@ -9,6 +9,8 @@ import ProductDetailInformationTitle from './information/ProductDetailInformatio
 import ProductDetailInformationCurrent from './information/ProductDetailInformationCurrent'
 import ProductDetailInformationList from './information/ProductDetailInformationList'
 import ProductDetailInformationDiscount from './information/ProductDetailInformationDiscount'
+
+import { IconArrowRight } from '@/components/icons'
 
 // styles
 import styles from './ProductDetail.module.css'
@@ -33,6 +35,9 @@ const ProductDetail = () => {
             <ProductDetailInformationCurrent />
             <ProductDetailInformationList />
             <ProductDetailInformationDiscount />
+            <Button endIcon={<IconArrowRight />} size="large" fullWidth className={styles.btnDiscount}>
+              Yes - Claim my discount
+            </Button>
           </Stack>
         </Stack>
       </Stack>

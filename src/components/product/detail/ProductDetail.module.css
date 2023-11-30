@@ -17,6 +17,18 @@
   gap: 32px;
 }
 
+.btnDiscount{
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 50px;
+  padding: 16px 64px;
+}
+
+.btnDiscount:hover{
+  background-color: var(--green-badge);
+}
+
+
 @media only screen and (max-width: 768px) {
 
 }
